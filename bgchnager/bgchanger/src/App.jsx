@@ -1,9 +1,10 @@
 import { useState } from 'react'
+import Toggle from './components/toggle'
 
 
 function App() {
-  const [Color, setcolor] = useState("black")
-
+  const [Color, setcolor] = useState("")
+  localStorage.setItem("backgroundcolor", Color)
   return (
     <>
     <h1> background color change useing usestate</h1>
