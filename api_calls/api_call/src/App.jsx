@@ -26,8 +26,8 @@ function App(){
       backgroundColor:'red'
      }}>
      {
-      User.map((user)=>{
-        return <div>
+      User.map((user,index)=>{
+        return <div key={index}>
           <Userinfo 
           name={user.name} 
           username={user.username} 
