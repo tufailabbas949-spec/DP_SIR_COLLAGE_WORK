@@ -6,7 +6,7 @@ const Nevbar = () => {
    <nav className='flex gap-7 justify-between px-22 bg-amber-200'>
     <div>logo</div>
     <div className='flex gap-5 text-2xl uppercase'>
-       <Link to={'/home'}>home</Link>
+       <Link to={'/'}>home</Link>
         <Link to={'/about'}>about</Link>
         <Link to={'/contact'}>CONTACT</Link>
         <Link to={'/login'}>LOgIN</Link>
